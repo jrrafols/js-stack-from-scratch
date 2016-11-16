@@ -19,5 +19,14 @@ describe('Shared', () => {
         /* eslint-enable no-console */
       });
     });
+    /*
+    describe('setName', () => {
+      it('should set the name to set the name to Test 1 then change to Test 2', () => {
+        const dog = new Dog('Test 1');
+        dog.name.should.equal('Test 1');
+        dog.setName('Test 2');
+        dog.name.should.equal('Test 2');
+      });
+    });*/
   });
 });

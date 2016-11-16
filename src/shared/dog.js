@@ -10,5 +10,9 @@ export default class Dog {
   barkInConsole() {
     console.log(this.bark()); // eslint-disable-line
   }
-
+/*
+  setName(name) {
+    this.name = name;
+  }
+*/
 }
